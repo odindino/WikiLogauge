@@ -1,0 +1,29 @@
+The program should have the following features:
+Front End:
+    Button:
+        1. start: start the measurement
+        2. stop:
+        3. clear: clear the data plot
+        4. wiki login: if available, would show "Succesfully login", otherwise show "login failed"
+        5. wiki log: Once pressed, the program would check whether this page is existed, if so, the program would start log on wiki automatically.
+
+    Checkbox:
+        1. automatically upload to Mediawiki?
+        if check the "wiki login" and "wiki log" buttons would be enable.
+    
+    Path to save the log file and figures
+    page name for mediawiki log
+
+    list of connection ports
+
+Backend:
+    Connecting to pressure gauge 
+    reading pressure from gauge
+    plot the reading value versus time
+    automatically restart the plot to make the data point not too much. (maybe every 12hr or 6 hr)
+    automatically save the value and time to a log file.
+    save the picture of the plot before it automatically restarts. (And those pictures will be uploaded to mediawiki afterward)
+    
+    Connect to mediawiki.
+    Upload the value to selected mediawiki page in certained format and rule
+    uplopd the picture to selected mediawiki page in certained format and rule
